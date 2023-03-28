@@ -3,10 +3,10 @@ name: Deploy ASP.NET Core WebApp
 on: 
   push:
     branches:
-      - main
+      - master
 
 env:
-  AZURE_WEBAPP_NAME: az204hikumaweb
+  AZURE_WEBAPP_NAME: az204hikumawebapp
   AZURE_WEBAPP_PATH: '.'
   DOTNET_VERSION: '5.0.101'
 
